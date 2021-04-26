@@ -3,7 +3,7 @@
 <%@ page import="java.util.*" %>
 <%@ page import="com.koreait.board.*" %>
 <%
-	List<BoardVO> list = (List<BoardVO>) request.getAttribute("data");
+	List<BoardVO> list = (List<BoardVO>) request.getAttribute("list");
 %>   
 <!DOCTYPE html>
 <html>

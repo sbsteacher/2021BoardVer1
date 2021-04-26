@@ -14,8 +14,8 @@ public class BoardDetailServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String no = request.getParameter("no");
 		System.out.println("no : " + no);
-		
 		int intNo = Integer.parseInt(no);
+		
 		BoardVO vo = Database.list.get(intNo);
 		
 		request.setAttribute("data", vo);

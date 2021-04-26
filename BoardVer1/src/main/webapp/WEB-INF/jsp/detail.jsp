@@ -13,7 +13,15 @@
 </head>
 <body>
 	<h1>디테일 <%=no %></h1>	
-	<div><%=request.getParameter("no") %></div>	
+	<div><%=request.getParameter("no") %></div>
+	<div>
+		<form action="/del" method="post">
+			<input type="hidden" name="no" value="<%=no %>">
+			<input type="submit" value="삭제">
+		</form>
+		
+		<a href="/del?no=<%=no %>"><button>삭제</button></a>
+	</div>	
 	<div>제목 : <%=vo.getTitle() %> </div>
 	<div><%=vo.getCtnt() %></div>
 </body>
