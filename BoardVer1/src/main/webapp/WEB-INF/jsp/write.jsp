@@ -13,10 +13,11 @@
 			제목 : <input type="text" name="title">
 		</div>
 		<div>
-			내용 : <textarea name="ctnt" rows="10" cols="10"></textarea>
+			내용 : <textarea name="ctnt" rows="10" cols="10" q></textarea>
 		</div>
 		<div>
 			<input type="submit" value="글쓰기">
+			<input type="reset" value="초기화">
 		</div>
 	</form>
 </body>
