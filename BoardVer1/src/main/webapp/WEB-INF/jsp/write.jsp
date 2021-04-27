@@ -13,7 +13,7 @@
 			제목 : <input type="text" name="title">
 		</div>
 		<div>
-			내용 : <textarea name="ctnt" rows="10" cols="10" q></textarea>
+			내용 : <textarea name="ctnt" rows="10" cols="10"></textarea>
 		</div>
 		<div>
 			<input type="submit" value="글쓰기">
